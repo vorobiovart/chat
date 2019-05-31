@@ -29,6 +29,15 @@ body {
   border-top: 1px solid #3f3f3f;
 }
 
+#new-message input {
+    border: none;
+    font-family: 'Press Start 2P', Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin: 0;
+    height: 50px;
+    padding: 5px;
+}
+
 #messages-list {
   padding: 5px 0 0 5px;
 }
