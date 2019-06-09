@@ -6,7 +6,7 @@ const AddMessage = ({ dispatchAddMessage }) => {
 
   const handleKeyPress = event => {
     if (inputRef.current.value && event.key === 'Enter') {
-      dispatchAddMessage(inputRef.current.value, 'Me'); // TODO: change the user name
+      dispatchAddMessage(inputRef.current.value, 'Me');
       inputRef.current.value = '';
     }
   };
